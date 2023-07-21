@@ -1,4 +1,4 @@
-# ⚛️ React Native Learning Repository
+# ⚛️ Learn React Native
 
 This repository is dedicated to tracking my progress and learning journey in mastering React Native, a popular JavaScript framework for building mobile applications. Currently, I'm only using [The Complete React Native + Hooks Course by Stephen Grider](https://www.udemy.com/course/the-complete-react-native-and-redux-course) as my resource.
 
