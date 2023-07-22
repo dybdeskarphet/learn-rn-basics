@@ -11,11 +11,19 @@ const HomeScreen = ({ navigation }) => {
     }>
       <Text style={styles.textStyle}>Components Demo</Text> 
     </TouchableOpacity>
+
     <TouchableOpacity style={styles.buttonStyle} onPress={() => 
     navigation.navigate("List")
     }>
       <Text style={styles.textStyle}>List Demo</Text> 
     </TouchableOpacity>
+
+    <TouchableOpacity style={styles.buttonStyle} onPress={() => 
+    navigation.navigate("Image")
+    }>
+      <Text style={styles.textStyle}>Image Demo</Text> 
+    </TouchableOpacity>
+
   </View>
   )};
 
@@ -27,6 +35,8 @@ const styles = StyleSheet.create({
     margin: 10,
     borderRadius: 20,
     backgroundColor: '#4CAF50',
+    shadowRadius: 10,
+    shadowOpacity: 100
   },
   textStyle: {
       color: 'white',
