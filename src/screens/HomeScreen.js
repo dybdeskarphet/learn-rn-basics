@@ -40,6 +40,19 @@ const HomeScreen = ({ navigation }) => {
       >
         <Text style={styles.textStyle}>Color Demo</Text>
       </TouchableOpacity>
+
+      <TouchableOpacity
+        style={styles.buttonStyle}
+        onPress={() => navigation.navigate("ColorizeSquare")}
+      >
+        <Text style={styles.textStyle}>Colorize Square Demo</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        style={styles.buttonStyle}
+        onPress={() => navigation.navigate("ColorizeSquareReducer")}
+      >
+        <Text style={styles.textStyle}>Colorize Square with Reducer Demo</Text>
+      </TouchableOpacity>
     </View>
   );
 };
