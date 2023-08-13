@@ -53,6 +53,12 @@ const HomeScreen = ({ navigation }) => {
       >
         <Text style={styles.textStyle}>Colorize Square with Reducer Demo</Text>
       </TouchableOpacity>
+      <TouchableOpacity
+        style={styles.buttonStyle}
+        onPress={() => navigation.navigate("Text")}
+      >
+        <Text style={styles.textStyle}>Text Demo</Text>
+      </TouchableOpacity>
     </View>
   );
 };
