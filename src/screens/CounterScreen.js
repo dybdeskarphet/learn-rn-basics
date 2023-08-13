@@ -1,8 +1,22 @@
-import React, { useState } from "react";
+import React, { useReducer } from "react";
 import { View, Text, StyleSheet, Button } from "react-native";
 
+const reducer = (state, action) => {
+  switch (action.type) {
+    case "increase":
+      return { ...state, counter: state.counter + action.payload };
+    case "decrease":
+      return state.counter - action.payload >= 0
+        ? { ...state, counter: state.counter - action.payload }
+        : state;
+    default:
+      return state;
+  }
+};
+
 const CounterScren = () => {
-  const [counter, setCounter] = useState(0);
+  const [state, dispatch] = useReducer(reducer, { counter: 0 });
+  const { counter } = state;
 
   return (
     <View>
@@ -12,8 +26,7 @@ const CounterScren = () => {
           <Button
             title="Increase"
             onPress={() => {
-              setCounter(counter + 1);
-              console.log(counter);
+              dispatch({ type: "increase", payload: 1 });
             }}
           />
         </View>
@@ -21,12 +34,7 @@ const CounterScren = () => {
           <Button
             title="Decrease"
             onPress={() => {
-              if (counter > 0) {
-                setCounter(counter - 1);
-                console.log(counter);
-              } else {
-                console.log("You can't count below zero!");
-              }
+              dispatch({ type: "decrease", payload: 1 });
             }}
           />
         </View>
