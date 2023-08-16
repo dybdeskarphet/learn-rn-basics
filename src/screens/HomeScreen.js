@@ -59,6 +59,12 @@ const HomeScreen = ({ navigation }) => {
       >
         <Text style={styles.textStyle}>Text Demo</Text>
       </TouchableOpacity>
+      <TouchableOpacity
+        style={styles.buttonStyle}
+        onPress={() => navigation.navigate("Layout")}
+      >
+        <Text style={styles.textStyle}>Layout Demo</Text>
+      </TouchableOpacity>
     </View>
   );
 };
