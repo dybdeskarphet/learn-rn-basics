@@ -4,7 +4,7 @@ This repository is dedicated to tracking my progress and learning journey in mas
 
 ## Resources
 
-* [The Complete React Native + Hooks Course by Stephen Grider](https://www.udemy.com/course/the-complete-react-native-and-redux-course)  ![](https://geps.dev/progress/15?dangerColor=8BC34A&warningColor=8BC34A&successColor=8BC34A)
+* [The Complete React Native + Hooks Course by Stephen Grider](https://www.udemy.com/course/the-complete-react-native-and-redux-course)  ![](https://geps.dev/progress/18?dangerColor=8BC34A&warningColor=8BC34A&successColor=8BC34A)
 
 ## Screenshots
 
@@ -41,7 +41,7 @@ I will add new screenshots as I create new practice apps.
     <th>Color Generator</th>
     <th>Colorize Square</th>
     <th>Text Screen</th>
-    <th>-</th>
+    <th>Layout Screen</th>
   </tr>
 </thead>
 <tbody>
@@ -58,7 +58,9 @@ I will add new screenshots as I create new practice apps.
     <img src="screenshots/06-text-screen-1.jpg" alt="text-1" width="150">
     <img src="screenshots/06-text-screen-2.jpg" alt="text-2" width="150">
     </td>
-    <td>-</td>
+    <td>
+    <img src="screenshots/07-layout-screen.jpg" alt="layout-2" width="150">
+    </td>
   </tr>
 </tbody>
 </table>
