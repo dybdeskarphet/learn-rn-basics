@@ -4,7 +4,10 @@ This repository is dedicated to tracking my progress and learning journey in mas
 
 ## Resources
 
-* [The Complete React Native + Hooks Course by Stephen Grider](https://www.udemy.com/course/the-complete-react-native-and-redux-course)  ![](https://geps.dev/progress/18?dangerColor=8BC34A&warningColor=8BC34A&successColor=8BC34A)
+* [The Complete React Native + Hooks Course by Stephen Grider](https://www.udemy.com/course/the-complete-react-native-and-redux-course)  ![](https://geps.dev/progress/45?dangerColor=8BC34A&warningColor=8BC34A&successColor=8BC34A)
+
+## Other Repositories
+- [Yelp Restaurant Finder App](https://github.com/dybdeskarphet/learn-rn-food-app)
 
 ## Screenshots
 
