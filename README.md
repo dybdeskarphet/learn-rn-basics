@@ -1,6 +1,6 @@
 # ⚛️ Learn React Native
 
-This repository is dedicated to tracking my progress and learning journey in mastering React Native, a popular JavaScript framework for building mobile applications. 
+This repository is dedicated to tracking my progress and learning journey in mastering React Native, a popular JavaScript library for building mobile applications. 
 
 ## Resources
 
